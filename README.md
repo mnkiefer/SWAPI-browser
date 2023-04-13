@@ -2,7 +2,13 @@
 
 For the CS50m final project, I designed the **SWAPI Browser** which draws data
 from the **S**tar **W**ars **API** via `network calls` to [SWAPI](https://swapi.dev/api/) which can 
-be displayed in *English* or *Wookiee*. Note, that there is an [open issue](https://github.com/phalt/swapi/issues/100) with some network calls to SWAPI (in Wookiee format) which return invalid JSON formats. Hence, we added an extra check when such an error is thrown, sanitize the raw text, and then return the results (see `./components/swapi.js`).
+be displayed in *English* or *Wookiee*. 
+
+Click below to watch the demo:
+  
+[![SWAPI Browser](https://img.youtube.com/vi/iT7g-Jb5iu8/0.jpg)](https://www.youtube.com/watch?v=iT7g-Jb5iu8)
+
+Note, that there is an [open issue](https://github.com/phalt/swapi/issues/100) with some network calls to SWAPI (in Wookiee format) which return invalid JSON formats. Hence, we added an extra check when such an error is thrown, sanitize the raw text, and then return the results (see `./components/swapi.js`).
 
 The layout is composed of a `tab navigator`, with *Search* and *Translation* tabs, each of which hold `stack navigators` for the search/details and language option views (see `./components/Navigator.js`). 
 
