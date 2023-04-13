@@ -1,6 +1,6 @@
 # Final Project - SWAPI Browser
 
-For the CS50m final project, we designed the **SWAPI Browser** which draws data
+For the CS50m final project, I designed the **SWAPI Browser** which draws data
 from the **S**tar **W**ars **API** via `network calls` to [SWAPI](https://swapi.dev/api/) which can 
 be displayed in *English* or *Wookiee*. Note, that there is an [open issue](https://github.com/phalt/swapi/issues/100) with some network calls to SWAPI (in Wookiee format) which return invalid JSON formats. Hence, we added an extra check when such an error is thrown, sanitize the raw text, and then return the results (see `./components/swapi.js`).
 
